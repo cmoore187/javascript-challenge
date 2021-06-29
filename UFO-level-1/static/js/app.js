@@ -26,7 +26,7 @@ function buildTable(data)
     });
 }
 
-// function that will andle the filtering
+// function that will handle the filtering
 function filterData()
 {
     // get the date time value from the form
@@ -34,7 +34,7 @@ function filterData()
     // variable that will be filtered data
     var filtered  = tableData;
 
-    //check to see if the date was enetered
+    //check to see if the date was entered
     if(date)
     {
         // if the date is non-null / non-empty value, apply the filter to the dataset
